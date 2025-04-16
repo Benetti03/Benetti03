@@ -8,13 +8,16 @@ on:
 jobs:
   build:
     name: Jobs to update datas
-    runs-on: ubuntu-22.04  # Versão fixa para evitar filas
+    runs-on: ubuntu-latest  # Versão fixa para evitar filas
     timeout-minutes: 10    # Evita jobs "presos"
     steps:
       # Ping periódico para evitar timeouts
       - name: Prevent timeout
         run: echo "Workflow em progresso - $(date)"
 
+      - name: Create output directory
+        run: mkdir -p dist
+      
       # Snake Animation
       - uses: Platane/snk@v2
         id: snake-gif
