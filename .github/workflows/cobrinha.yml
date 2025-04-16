@@ -1,26 +1,31 @@
 name: Generate Datas
 
 on:
-  schedule: # execute every 12 hours
+  schedule:
     - cron: "* */12 * * *"
   workflow_dispatch:
 
 jobs:
   build:
     name: Jobs to update datas
-    runs-on: ubuntu-latest >> 
+    runs-on: ubuntu-22.04  # Versão fixa para evitar filas
+    timeout-minutes: 10    # Evita jobs "presos"
     steps:
+      # Ping periódico para evitar timeouts
+      - name: Prevent timeout
+        run: echo "Workflow em progresso - $(date)"
+
       # Snake Animation
-      - uses: Platane/snk@v2  # Versão fixa que já corrige o problema
+      - uses: Platane/snk@v2
         id: snake-gif
         with:
           github_user_name: Benetti03
           svg_out_path: dist/github-contribution-grid-snake.svg
 
-      - uses: crazy-max/ghaction-github-pages@v3  # Versão mais recente
+      # GitHub Pages
+      - uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
