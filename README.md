@@ -2,7 +2,7 @@
 
 - 🔭 Estagiário na empresa RPi de Pato Branco - PR
 - 🌱 Estudante de Engenharia da Computação
-- 📫 E-mail para contato: lb.benetti@hotmail.com
+- 📫 E-mail para contato: lorenzobenetti@alunos.utfpr.edu.br
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 
