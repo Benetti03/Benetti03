@@ -1,6 +1,6 @@
 ## Olá, eu sou Lorenzo Benetti 👋
 
-- 🔭 Estagiário na empresa RPi de Pato Branco - PR
+- 🔭 Estagiário na empresa RPi Souluções - Pato Branco - PR
 - 🌱 Estudante de Engenharia da Computação
 - 📫 E-mail para contato: lorenzobenetti@alunos.utfpr.edu.br
 
