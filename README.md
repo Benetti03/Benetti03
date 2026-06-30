@@ -1,8 +1,8 @@
 ## Olá, eu sou Lorenzo Benetti 👋
 
-- 🔭 Estagiário na empresa RPi Souluções - Pato Branco - PR (Dev-Júnior Java)
-- 🌱 Estudante de Engenharia da Computação
-- 👩‍💻 Desenvolvedor Front-End pela Occam Engenharia - Empresa Júnior da UTFPR-PB
+- 🔭 Estagiário na empresa RPi Souluções - Pato Branco - PR (Dev FullStack - Java & Delphi)
+- 👩‍💻 Estudante de Engenharia da Computação
+- ⚔️ Demolay - D.469
 - 📫 E-mail para contato: lorenzobenetti@alunos.utfpr.edu.br
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
